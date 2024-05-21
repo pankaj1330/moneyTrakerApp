@@ -1,0 +1,62 @@
+.project{
+  max-width: 600px;
+  margin: 20px auto;
+  width: 100%;
+  padding: 16px;
+  border-radius: 12px;
+  /* background-color: #000f35e0; */
+  background-color: #000f35f5;
+}
+
+.project form div:nth-child(1){
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 6px;
+}
+.project form div:nth-child(1) input{
+  width: 50%;
+}
+.project form div:nth-child(2) input,.project form div:nth-child(3) input,.project form > input{
+  width: 100%;
+}
+.project input{
+  padding: 8px;
+  outline: none;
+  border: none;
+  margin-block: 4px;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.project form > input[type="submit"]{
+  background-color: bisque;
+  color: red;
+  cursor: pointer;
+}
+
+.project .list{
+  list-style: none;
+  color: white;
+}
+.project .list .item{
+  margin-block: 30px;
+}
+.project .list .item div{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-block: 2px;
+}
+.project .list .item div .price{
+  font-size: 20px;
+  font-weight: bolder;
+}
+.total{
+  color: white;
+  text-align: end;
+  border-top: 2px solid white;
+  padding-top: 8px;
+}
+
+
